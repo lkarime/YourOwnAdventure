@@ -14,6 +14,8 @@ You are going to create your own **Choose Your Adventure** game. Scenario is, th
         * If true, have the player proceed.
     3. See if the player is the furthest to the right?
         * If true, have the player proceed.
+        
+Link to the PDF [walkthrough](http://www.johan-martin.com/lms/mod/resource/view.php?id=123). 
 
 ## What we are covering
 * Variables
