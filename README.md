@@ -16,6 +16,7 @@ You are going to create your own **Choose Your Adventure** game. Scenario is, th
         * If true, have the player proceed.
         
 Link to the PDF [walkthrough](http://www.johan-martin.com/lms/mod/resource/view.php?id=123). 
+Link ot project on LMS [Choose Your Own Adventure](http://www.johan-martin.com/lms/mod/page/view.php?id=130).
 
 ## What we are covering
 * Variables
