@@ -2,12 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Choose your own adventure</title>
+        <title>Contact Us</title>
         <link href="style.css" rel="stylesheet">
+
     </head>
     <body>
-        <h1>Choose Your own adventure</h1>
+          <h1>Contact Us</h1>
         <script src="script.js"></script>
+<div class="top">
+<p><label>First Name <input type="text" name="First" id="first"></label></p>
+
+<p><label>Last Name <input type="text" name="Last" id="Last"></label></p>
+
+<p><label>Email <input type="email" name="Email" id="email"></label></p>
+<p><label>Message:</label></P>
+  <p><textarea cols="50" rows="7" name="message" id="message"> Message </textarea></p>
+</div>
+
+<div class="gender">
+  <h2>Gender:</h2>
+  <ul>
+  <li><label for="Male"><input type="radio" name="male" id="male">Male</label><li>
+  <li><label for="Female"><input type="radio" name="female" id="female">Female</label></li>
+</ul>
+</div>
+
+<div class="category">
+  <label for="Category">Categoy</label>
+  <select name="Category" id="Category">
+    <option value="">Choose One...</option>
+    <option value="teacher">Teacher</option>
+    <option value="student">Student</option>
+    <option value="other">Other</option>
+  </select>
+</div>
     </body>
+<footer>
+  <h2>Terms and Agreements</h2>
+  <ul>
+<li><label><input type="checkbox" name="Updates" checked> I'd like to receive notices when this site updates</label></li>
+  <li><label><input type="checkbox" name="Notices"> I'd like to receive notices pertaining to related websites and their services</label></li>
+    </ul>
+  <div class="submit">
+    <input type="submit" value="Submit" name="submit">
+    <input type="reset" value="Reset" name="reset">
+  </div>
+</footer>
 </html>
-        

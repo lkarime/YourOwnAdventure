@@ -1,18 +1,79 @@
 body {
-    color: #2E5599;
-    background-color: #7CF1FF;
-    width: 80%;
+    color: inherit;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #00A0B0;
+    border-top: 1px;
+    border-radius: 10px;
+    padding-bottom: 1px;
 }
 
 h1 {
     font-size: 3em;
-    color: #FF6326;
+    color: white;
     text-transform: capitalize;
+    border: 1px solid #00A0B0;
+    text-align: center;
+    background-color: #00A0B0;
+    font-family: 'lobster', cursive;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+p {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 1em;
 }
 
-p {
-    color: #CC604F;
-    font-style: italic;
+ul {list-style-type: none;
+padding-left: 1em;
 }
+
+.Gender{
+  padding-left: .5em;
+}
+
+div.category{
+  padding-left: .5em;
+margin-bottom: 1em;
+}
+
+footer{border: 1px solid #00A0B0;
+  margin top:.25em;
+}
+
+.submit{
+  padding: 2em;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.submit input{
+  font-size: 1.2em;
+  border: 1px solid #2E5599;
+  padding: .25em;
+  background-color: #00A0B0;
+  border-radius: 15px;
+  width: 5em;
+}
+
+label{
+  font-size: .75em;
+font-style: italic;
+font-weight: bold;
+padding-bottom: .25em;
+display: block;
+}
+
+label input{
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.top input, select{
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.gender h2{margin-top: 1.5em;}
